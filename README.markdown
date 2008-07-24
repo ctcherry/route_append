@@ -8,6 +8,6 @@ Works well for testing Abstract controllers that normally have no routes associa
 Example
 =======
 
-ActionController::Routing::Routes.append do |map|
-	map.connect '/new_route/:controller/:action'
-end
+	ActionController::Routing::Routes.append do |map|
+		map.connect '/new_route/:controller/:action'
+	end
