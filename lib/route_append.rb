@@ -1,6 +1,6 @@
 class ActionController::Routing::RouteSet
-	def append
+  def append
     yield Mapper.new(self)
     install_helpers
-	end
+  end
 end

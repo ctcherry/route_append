@@ -9,5 +9,5 @@ Example
 =======
 
 	ActionController::Routing::Routes.append do |map|
-		map.connect '/new_route/:controller/:action'
+	  map.connect '/new_route/:controller/:action'
 	end
