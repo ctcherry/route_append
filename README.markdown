@@ -1,6 +1,6 @@
 # route\_append #
 
-This plugin allows you to append routes dynamically to your pre-existing routes
+This rails gem/plugin allows you to append routes dynamically to your pre-existing routes
 
 Works well for testing abstract controllers that normally have no routes associated with them
 
@@ -8,5 +8,5 @@ Works well for testing abstract controllers that normally have no routes associa
 ## Example ##
 
 	ActionController::Routing::Routes.append do |map|
-	  map.connect '/new_route/:controller/:action'
+	  map.connect 'login_required', :controller => 'application', :action => 'login_required'
 	end
