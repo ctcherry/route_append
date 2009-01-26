@@ -1,7 +1,7 @@
 module Huberry
   module RouteAppend
     def append
-      yield Mapper.new(self)
+      yield ::ActionController::Routing::RouteSet::Mapper.new(self)
       install_helpers
     end
   end

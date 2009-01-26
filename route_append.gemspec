@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name    = 'route_append'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.date    = '2009-01-13'
   
   s.summary     = 'A rails gem/plugin that allows you to append routes dynamically to your pre-existing routes'
